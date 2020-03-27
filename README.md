@@ -16,7 +16,10 @@ ou avec powerShell :
 
 	  Lancer 'main.py' avec python
 
+TESTER :
 
+Une banque d'images ainsi que les boîtes OCR correspondantes sont données comme exemple dans le dossier 'dataset/' pour tester l'outil.
+Lorsque l'application demande de sélectionner les 'input dataset' et 'output directory', veuillez entrer le chemin vers le dossier 'dataset/'.
 
 ## Prérequis
 
