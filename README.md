@@ -29,7 +29,7 @@ Lorsque l'application demande de sélectionner les 'input dataset' et 'output di
     
   ou avec PowerShell :
   
-    - Python 3.7.3
+    - Python 3.7.4
     - Kivy 1.11.1
     - Pillow 6.0.0
   
