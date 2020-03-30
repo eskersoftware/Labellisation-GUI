@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Aug 28 13:52:30 2019
-
-@author: Duvernay
-"""
 
 from graphical_elements import Token
 from util import *
