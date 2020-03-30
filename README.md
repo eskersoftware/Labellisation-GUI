@@ -7,14 +7,14 @@ Outil permettant la classification et la labellisation de documents, ainsi que l
 
 EXECUTION :
 
-	avec l'exécutable :
+avec l'exécutable : (ne fonctionne pas)
 
-	    Placez vous dans le dossier 'builder\' puis lancez le script 'create_exe.bat' pour créer l'exécutable
-	    puis lancer 'dist\LabelTool\LabelTool.exe'
+    Placez vous dans le dossier 'builder\' puis lancez le script 'create_exe.bat' pour créer l'exécutable
+    puis lancer 'dist\LabelTool\LabelTool.exe'
 
-	ou avec powerShell :
+ou avec powerShell :
 
-		  Lancer 'main.py' avec python
+	  Lancer 'main.py' avec python
 
 TESTER :
 
@@ -23,7 +23,7 @@ Lorsque l'application demande de sélectionner les 'input dataset' et 'output di
 
 ## Prérequis
 
-  avec l'exécutable :
+  avec l'exécutable : (ne fonctionne pas)
   
     - PyInstaller
     
@@ -36,7 +36,7 @@ Lorsque l'application demande de sélectionner les 'input dataset' et 'output di
 
 ## Installation
 
-Pour créer l'exécutable :
+Pour créer l'exécutable : (ne fonctionne pas)
 
 PyInstaller:
 
@@ -66,7 +66,7 @@ Kivy :
     
 Pillow:
 
-    pip install Pillow
+    pip install Pillow==6.0.0
     
 
 ## Description du projet
