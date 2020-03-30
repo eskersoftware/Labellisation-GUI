@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Aug 28 13:51:24 2019
 
-@author: Duvernay
-"""
 
 
 class InvalidFile(Exception):
