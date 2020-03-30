@@ -2,6 +2,8 @@
 
 Outil permettant la classification et la labellisation de documents, ainsi que la correction du travail de l'OCR.
 
+![Aperçu de l'outil](aperçu.png)
+
 ## Prérequis
   
     - Windows 10 	(il est possible que l'outil fonctionne aussi sous Windows 7 et 8)
