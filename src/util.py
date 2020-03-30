@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Aug 28 13:31:37 2019
-
-@author: Duvernay
-"""
 
 from math import sqrt
 
