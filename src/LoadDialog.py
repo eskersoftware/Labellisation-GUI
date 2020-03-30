@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Aug 28 14:39:15 2019
-
-@author: Duvernay
-"""
 
 from kivy.properties import StringProperty, ObjectProperty
 from kivy.uix.floatlayout import FloatLayout
