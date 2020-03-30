@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Aug 28 13:47:29 2019
-
-@author: Duvernay
-"""
 
 from kivy.uix.label import Label
 from kivy.properties import StringProperty, NumericProperty, ObjectProperty, BooleanProperty, DictProperty
