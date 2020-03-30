@@ -2,73 +2,46 @@
 
 Outil permettant la classification et la labellisation de documents, ainsi que la correction du travail de l'OCR.
 
+## Prérequis
+  
+    - Windows 10 	(il est possible que l'outil fonctionne aussi sous Windows 7 et 8)
+    - Python 3.7.4
+    - pip
+  
+## Installation
+
+Installer les dépendances à l'aide du fichier requirements.txt
+
+	pip install -r requirements.txt
+
+Puis dans kivy\uix\filechooser.py ajoutez manuellement les lignes suivantes à la fonction scroll_to_top de la classe FileChooserListLayout :
+
+      self.ids.scrollview.bar_width = 5
+      self.ids.scrollview.scroll_type = ['bars']
+
+Cela rendra les bars de défilement plus épaisse et plus facile à manier.
+Commenter les lignes 174 à 184 (contenu de la fonction is_hidden de la classe FileSystemLocal) si vous souhaitez créer l'exécutable.
+
+Note: Pour parvenir à kivy\uix\filechooser.py, dans Exécuter, entrez "%appdata%. Le répertoire kivy se trouve en général dans \AppData\Local\Programs\Python\Python37\Lib\site-packages\
 
 ## Prise en main
 
-EXECUTION :
+### LANCEMENT DE L'OUTIL :
 
-avec l'exécutable : (ne fonctionne pas)
+#### avec l'exécutable :
 
     Placez vous dans le dossier 'builder\' puis lancez le script 'create_exe.bat' pour créer l'exécutable
     puis lancer 'dist\LabelTool\LabelTool.exe'
 
-ou avec powerShell :
+#### ou depuis Windows PowerShell :
 
-	  Lancer 'main.py' avec python
+    Lancer 'main.py' avec python
 
-TESTER :
+### TESTER :
 
 Une banque d'images ainsi que les boîtes OCR correspondantes sont données comme exemple dans le dossier 'dataset/' pour tester l'outil.
 Lorsque l'application demande de sélectionner les 'input dataset' et 'output directory', veuillez entrer le chemin vers le dossier 'dataset/'.
 
-## Prérequis
-
-  avec l'exécutable : (ne fonctionne pas)
-  
-    - PyInstaller
-    
-  ou avec PowerShell :
-  
-    - Python 3.7.4
-    - Kivy 1.11.1
-    - Pillow 6.0.0
-  
-
-## Installation
-
-Pour créer l'exécutable : (ne fonctionne pas)
-
-PyInstaller:
-
-    pip install pyInstaller==3.5
-
-Pour lancer le main.py à la main avec PowerShell :
-
-Python : 
-
-    https://www.python.org/downloads/
-
-Kivy : 
-
-    python -m pip install setuptools==41.2.0 
-    python -m pip install --upgrade pip wheel virtualenv
-    python -m pip install docutils pygments pypiwin32 kivy_deps.sdl2==0.1.22 kivy_deps.glew==0.1.12
-    python -m pip install kivy_deps.gstreamer==0.1.17
-    python -m pip install kivy_deps.angle==0.1.9
-    python -m pip install kivy==1.11.1
-
-    Puis dans kivy\uix\filechooser.py
-    Ajoutez les lignes suivantes à la fonction scroll_to_top de la classe FileChooserListLayout :
-      self.ids.scrollview.bar_width = 5
-      self.ids.scrollview.scroll_type = ['bars']
-    Cela rendra les bars de défilement plus épaisse et plus facile à manier.
-    Commenter les lignes 174 à 184 (contenu de la fonction is_hidden de la classe FileSystemLocal) si vous souhaitez
-    créer l'exécutable.
-    
-Pillow:
-
-    pip install Pillow==6.0.0
-    
 
 ## Description du projet
 
