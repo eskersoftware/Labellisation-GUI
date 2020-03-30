@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Aug 28 13:55:30 2019
 
-@author: Duvernay
-"""
 from kivy.uix.image import Image
 from kivy.uix.label import Label
 from kivy.core.window import Window
