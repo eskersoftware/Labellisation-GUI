@@ -8,11 +8,6 @@ from kivy.uix.floatlayout import FloatLayout
 
 
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Aug 27 18:49:44 2019
-
-@author: Duvernay
-"""
 
 
 class HelpDisplayer(FloatLayout):
