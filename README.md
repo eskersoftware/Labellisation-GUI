@@ -40,7 +40,7 @@ Pour créer l'exécutable : (ne fonctionne pas)
 
 PyInstaller:
 
-    pip install pyInstaller
+    pip install pyInstaller==3.5
 
 Pour lancer le main.py à la main avec PowerShell :
 
@@ -49,8 +49,8 @@ Python :
     https://www.python.org/downloads/
 
 Kivy : 
-
-    python -m pip install --upgrade pip wheel setuptools virtualenv
+    python -m pip install setuptools==41.2.0 
+    python -m pip install --upgrade pip wheel virtualenv
     python -m pip install docutils pygments pypiwin32 kivy_deps.sdl2==0.1.22 kivy_deps.glew==0.1.12
     python -m pip install kivy_deps.gstreamer==0.1.17
     python -m pip install kivy_deps.angle==0.1.9
