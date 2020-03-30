@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Aug 28 13:53:58 2019
 
-@author: Duvernay
-"""
 from kivy.app import App
 from glob import glob
 
