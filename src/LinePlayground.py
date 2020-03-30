@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Wed Aug 28 13:42:16 2019
-
-@author: Duvernay
-"""
 
 
 from kivy.properties import ObjectProperty, ListProperty
